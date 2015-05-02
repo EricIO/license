@@ -2,5 +2,5 @@
 # Make this automated
 
 module License
-	LICENSES = `ls --ignore="*.small" data/`.split("\n")
+	LICENSES = `ls --ignore="*.notice" data/`.split("\n")
 end
