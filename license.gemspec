@@ -1,6 +1,10 @@
+$:.push File.expand_path("../lib", __FILE__)
+require_relative 'lib/version'
+
 Gem::Specification.new do |gem|
 	gem.name         = 'licenser'
-	gem.version      = '0.1.0'
+	gem.version      = License::VERSION.dup
+	gem.platform     = Gem::Platform::RUBY
 	gem.date         = '2015-05-01'
 	gem.summary      = 'Inserts license information for your project'
 	gem.description  = 'License creates license files for your project automatically so that you don\'t need to do that manually'
