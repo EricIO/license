@@ -8,8 +8,12 @@ module License
 		end
 
 		def parse_license
-			puts @license
-			FileUtils.cp("/home/eric/programming/projects/license/data/gplv3", "./#{@outfile}")			
+			if License::LICENSES.include? @license
+				FileUtils.cp("data/#{@license}", "#{@outfile}")
+			else
+				puts "Unsupported license please use --list to show all supported licenses"
+				exit
+			end
 		end
 	end
 end

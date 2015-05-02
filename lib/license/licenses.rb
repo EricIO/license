@@ -2,5 +2,5 @@
 # Make this automated
 
 module License
-	LICENSES = ["gplv2", "gplv3", "mit"]
+	LICENSES = `ls --ignore="*.small" data/`.split("\n")
 end
