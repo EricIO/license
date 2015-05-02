@@ -1,6 +1,3 @@
-# TODO
-# Make this automated
-
 module License
-	LICENSES = `ls --ignore="*.notice" data/`.split("\n")
+	LICENSES = `ls --ignore="*.notice" #{License::PATH}/data`.split("\n")
 end
