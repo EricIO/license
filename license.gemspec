@@ -1,5 +1,5 @@
 Gem::Specification.new do |gem|
-	gem.name         = 'license'
+	gem.name         = 'licenser'
 	gem.version      = '0.1.0'
 	gem.date         = '2015-05-01'
 	gem.summary      = 'Inserts license information for your project'
