@@ -3,8 +3,6 @@ Some things that I wan't to do (feel free to do it yourself)
 Add support for adding license information to individual files. This is what the .small files
 are there for.
 
-This can be done naively or better, I imagine that these parts would be useful
-	
 	- Prepend the .small text onto the project files
 	- Determine what characters are used for comments
 	- Let the user determine what files the license info should be prepended to
