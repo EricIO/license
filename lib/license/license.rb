@@ -3,7 +3,7 @@ require 'fileutils'
 module License
 	class LicenseObject
 		def initialize(license, outfile = "LICENSE")
-			@license =  license
+			@license = license
 			@outfile = outfile
 		end
 
